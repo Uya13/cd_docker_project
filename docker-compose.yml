@@ -1,0 +1,6 @@
+services:
+  web:
+    image: docker.io/uya13/cd_docker_project:latest
+    ports:
+      - "80:5000"
+    restart: always
